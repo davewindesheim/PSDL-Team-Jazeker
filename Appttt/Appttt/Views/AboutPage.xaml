@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Appttt.Views.AboutPage"
              xmlns:vm="clr-namespace:Appttt.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -20,10 +21,10 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="DarkGray" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout BackgroundColor="#FF32CD32" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,30,0,30" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="44" />
+                <ContentView Padding="0,10,0,10" VerticalOptions="FillAndExpand">
+                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
                 </ContentView>
             </StackLayout>
         </StackLayout>
@@ -36,7 +37,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Voer het deelnemersnummer in" FontAttributes="Bold"/>
+                                <Span Text="Voer jouw unieke deelnemersnummer in" FontAttributes="Bold"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
