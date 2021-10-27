@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
       "projectName": "Appttt.iOS",
-      "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
+      "projectPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
       "packagesPath": "C:\\Users\\davej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\obj\\",
+      "outputPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1022,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj": {
-              "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj"
+            "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt\\Appttt.csproj": {
+              "projectPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt\\Appttt.csproj"
             }
           }
         }

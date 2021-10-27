@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.Android\\Appttt.Android.csproj",
+      "projectUniqueName": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.Android\\Appttt.Android.csproj",
       "projectName": "Appttt.Android",
-      "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.Android\\Appttt.Android.csproj",
+      "projectPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.Android\\Appttt.Android.csproj",
       "packagesPath": "C:\\Users\\davej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.Android\\obj\\",
+      "outputPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj": {
-              "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj"
+            "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt\\Appttt.csproj": {
+              "projectPath": "C:\\Users\\davej\\Desktop\\Schoolopdrachten\\Leerjaar 2\\PSDL\\App\\Appttt\\Appttt\\Appttt.csproj"
             }
           }
         }
