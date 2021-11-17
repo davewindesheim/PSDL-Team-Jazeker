@@ -10,7 +10,7 @@ namespace Appttt.ViewModels
         public AboutViewModel()
         {
             Title = "Virtual Tourist";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://newtownfestival.nl"));
         }
 
         public ICommand OpenWebCommand { get; }
