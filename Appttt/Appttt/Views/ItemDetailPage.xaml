@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Appttt.Views.ItemDetailPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
+    <ScrollView Grid.Row="1">
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <Label Text="Dark mode" FontSize="16" Padding="0,0,0,0"/>
+            <Label FontSize="16" Padding="0,24,0,0">
+            </Label>
+            <Button Text="Privacy Policy" x:Name="ButtonShowAlert" Clicked="ButtonShowAlert_Clicked"/>
+        </StackLayout>
+    </ScrollView>
 
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Text}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Description}" FontSize="Small"/>
-    </StackLayout>
-    
 </ContentPage>

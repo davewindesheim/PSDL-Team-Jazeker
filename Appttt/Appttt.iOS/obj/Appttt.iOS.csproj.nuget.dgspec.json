@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj": {}
+    "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj": {
+    "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
         "projectName": "Appttt.iOS",
-        "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
-        "packagesPath": "C:\\Users\\davej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt.iOS\\Appttt.iOS.csproj",
+        "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\davej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj": {
-                "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj"
+              "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\Appttt.csproj": {
+                "projectPath": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\Appttt.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj": {
+    "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\Appttt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\Appttt.csproj",
         "projectName": "Appttt",
-        "projectPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\Appttt.csproj",
-        "packagesPath": "C:\\Users\\davej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davej\\source\\repos\\Appttt\\Appttt\\Appttt\\obj\\",
+        "projectPath": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\Appttt.csproj",
+        "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Frank\\Desktop\\psdl\\Appttt\\Appttt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\davej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
