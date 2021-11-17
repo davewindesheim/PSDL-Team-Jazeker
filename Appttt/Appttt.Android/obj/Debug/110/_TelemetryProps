@@ -21,8 +21,14 @@ ClassParser=
 CodegenTarget=
 AndroidDexTool=d8
 AndroidLinkTool=
+<<<<<<< Updated upstream
 AndroidEnableProfiledAot=
 AndroidInstallAfterBuild=True
 AndroidSessionId=0da6f0de-daf1-4f20-abfa-185e84533c51
+=======
+AndroidEnableProfiledAot=false
+AndroidInstallAfterBuild=
+AndroidSessionId=
+>>>>>>> Stashed changes
 BuildConfiguration=Debug
 TemplateName={6968b3a4-1835-46a3-ac5c-1ae33b475983}

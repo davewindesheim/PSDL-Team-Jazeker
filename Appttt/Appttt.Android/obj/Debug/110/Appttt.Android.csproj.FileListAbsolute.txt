@@ -1160,3 +1160,4 @@ C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt.Androi
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt.Android\obj\Debug\110\Appttt.Android.csproj.CopyComplete
