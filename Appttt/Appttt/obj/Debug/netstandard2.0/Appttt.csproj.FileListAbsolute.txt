@@ -22,7 +22,6 @@ C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\bin\De
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\bin\Debug\netstandard2.0\Appttt.dll
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\bin\Debug\netstandard2.0\ref\Appttt.dll
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\bin\Debug\netstandard2.0\Appttt.pdb
-C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Appttt.csproj.AssemblyReference.cache
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Appttt.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -38,3 +37,5 @@ C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\De
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Appttt.dll
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\ref\Appttt.dll
 C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Appttt.pdb
+C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Views\PropertiesPage.xaml.g.cs
+C:\Users\davej\Desktop\Schoolopdrachten\Leerjaar 2\PSDL\App\Appttt\Appttt\obj\Debug\netstandard2.0\Appttt.csproj.AssemblyReference.cache
