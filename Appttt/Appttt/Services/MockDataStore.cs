@@ -19,7 +19,9 @@ namespace Appttt.Services
                 new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-63", Description="Product short description for JVE-63" },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-62", Description="Het midden van Flevoland verrast je door de enorme ruimte die je ervaart, in het voorjaar vol tulpen, de nieuwe Markerwadden middenin in het IJsselmeer." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
             };
         }
 
