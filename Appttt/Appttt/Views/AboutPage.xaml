@@ -23,13 +23,14 @@
         </Grid.RowDefinitions>
         <StackLayout BackgroundColor="#FF32CD32" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,10,0,10" VerticalOptions="FillAndExpand">
-                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
+                <ContentView Padding="0,40,0,0" VerticalOptions="FillAndExpand">
                 </ContentView>
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
+                <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
+                <Label Text=""/>
                 <Label Text="What is the virtual bike ride?" FontAttributes="Bold" FontSize="Title"/>
                 <Label Text="A virtual challenge is simply a journey that we have set out in an environment and that we can experience from home.
                        &#x0a;You can cycle or walk our tour outside or inside, in your own environment, wherever and whenever you want. 
@@ -44,10 +45,12 @@
                     </Label.FormattedText>
                 </Label>
                 <Entry x:Name="entry" Text="123456789" />
-                <Button Margin="0,10,0,0" Text="Retrieve"
+                <Button Margin="60,10,60,0" Text="Retrieve"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
             </StackLayout>
         </ScrollView>
     </Grid>

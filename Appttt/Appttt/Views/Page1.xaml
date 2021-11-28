@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appttt.Views.Page1"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <Entry x:Name="user_1" FontSize="Body"></Entry>
+            <Entry x:Name="user_2" FontSize="Body"></Entry>
+            <Entry x:Name="user_3" FontSize="Body"></Entry>
+            <Entry x:Name="user_4" FontSize="Body"></Entry>
+            <Button Margin="60,10,60,0" Text="Retrieve"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
