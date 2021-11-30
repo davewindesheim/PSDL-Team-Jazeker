@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appttt.ShopRoute2"
+             xmlns:vm="clr-namespace:Appttt.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackLayout BackgroundColor="#FF32CD32" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ContentView Padding="0,40,0,0" VerticalOptions="FillAndExpand">
+                    </ContentView>
+                </StackLayout>
+            </StackLayout>
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
+                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
+                    <Label Text=""/>
+                    <Label Text="The 100 of Lier 2021/2022" FontAttributes="Bold" FontSize="Title"/>
+                    <Label Text="
+&#x0a;Lier: 'Pearl of Flanders'
+&#x0a;
+&#x0a;Although Flanders has many beautiful cities; Ghent, Leuven, Bruges, Antwerp, you can safely call Lier a real pearl.
+&#x0a;
+&#x0a;It is a compact city of outstanding beauty.
+&#x0a;Lier is one of the most charming towns in Belgium. Unknown, beautiful and actually super close. Lier is a 20-minute drive southeast of the center of Antwerp. It's a small town, but big enough to spend a lovely afternoon strolling around. Lier is an exceptionally beautiful town, buildings with beautiful stepped gables, a Beguinage and a striking number of restaurants and terraces.
+&#x0a;This virtual introduction to this beautiful city is open during the period that the AcLyra Nature Walks are also held.
+&#x0a;However, this virtual run is not only for the real mile-eaters, but for anyone who occasionally walks or hikes. With this virtual tour you have the motivation to walk a few extra bits every day. For sport or just because it's fun.
+&#x0a;
+&#x0a;But this route goes around Lier and we have taken that very literally. So we go through the entire region rather than just Lier and we pass through many different places on our way." FontSize="16" Padding="0,0,0,0"/>
+                    <Button Margin="60,10,60,0" Text="Buy"
+                        Command="{Binding ShopRoute2Web}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+                    <Label Text=""/>
+                    <Image Source="Route2_LangePier.png" VerticalOptions="Center"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
