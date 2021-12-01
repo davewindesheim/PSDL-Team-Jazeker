@@ -2,13 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Appttt.Views.Page1"
+             xmlns:vm="clr-namespace:Appttt.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             Title="{Binding Title}"
              Shell.NavBarIsVisible="False">
+
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
             <Entry x:Name="user_1" FontSize="Body"></Entry>
             <Entry x:Name="user_2" FontSize="Body"></Entry>
             <Entry x:Name="user_3" FontSize="Body"></Entry>
             <Entry x:Name="user_4" FontSize="Body"></Entry>
+            <Button Margin="60,10,60,0" Text="Send"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+            <Label FontSize="16" Padding="0,24,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Enter your unique participant number" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Entry x:Name="entry" Text="123456789" />
             <Button Margin="60,10,60,0" Text="Retrieve"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"

@@ -5,10 +5,10 @@
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
 
-          <ListView x:Name="flowlistview" ItemsSource="{Binding MyListCollector}" ItemTapped="Handle_ItemTapped">
+          <ListView x:Name="flowlistview" ItemsSource="{Binding MyListCollector}" ItemTapped="Handle_ItemTapped" VerticalOptions="FillAndExpand" RowHeight="75">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                <TextCell Detail="{Binding RouteDetail}" Text="{Binding RouteName}"/>                
+                <TextCell Detail="{Binding RouteDetail}" Text="{Binding RouteName}" />                
                 </DataTemplate>              
                 </ListView.ItemTemplate>                  
             </ListView>

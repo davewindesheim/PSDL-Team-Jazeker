@@ -21,36 +21,32 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="#FF32CD32" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout BackgroundColor="#FF32CD31" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,0" VerticalOptions="FillAndExpand">
                 </ContentView>
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="2">
                 <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
                 <Label Text=""/>
-                <Label Text="What is the virtual bike ride?" FontAttributes="Bold" FontSize="Title"/>
-                <Label Text="A virtual challenge is simply a journey that we have set out in an environment and that we can experience from home.
-                       &#x0a;You can cycle or walk our tour outside or inside, in your own environment, wherever and whenever you want. 
-                       &#x0a;You are outside in lovely weather or inside when its bad weather on your exercise bike or you just use your pedometer." FontSize="16" Padding="0,0,0,0"/>
-                <Label FontSize="16" Padding="0,24,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Enter your unique participant number" FontAttributes="Bold"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Entry x:Name="entry" Text="123456789" />
-                <Button Margin="60,10,60,0" Text="Retrieve"
+                <Label Text="Welcome to Virtual Tourist" FontAttributes="Bold" FontSize="Title"/>
+                <Label Text="Visit Flevoland on your bike in three rounds in your own environment. That is possible, and we simply do it virtually. 
+                       &#x0a;Discover the secret pearls of the New Land, the infinite expanse of nature, impressive landscape art, old airplanes and archaeological finds, stories of the islanders on Urk and Schokland, which have recently become world heritage sites. 
+                       &#x0a;And of course modern architecture and landscape art in the newest part of Europe. And you do all this on your own bike around your own home. How is that possible?" FontSize="16" Padding="0,0,0,0"/>
+                <Label Text=""/>
+                <Button Margin="60,10,60,0" Text="Subscribe"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" 
                         FontAttributes="Bold"
                         CornerRadius="20"/>
+                <Label Text=""/>
+                <Label Text="What is the virtual bike ride?" FontAttributes="Bold" FontSize="Title"/>
+                <Label Text="A virtual challenge is simply a journey that we have set out in an environment and that we can experience from home.
+                       &#x0a;You can cycle or walk our tour outside or inside, in your own environment, wherever and whenever you want. 
+                       &#x0a;You are outside in lovely weather or inside when its bad weather on your exercise bike or you just use your pedometer." FontSize="16" Padding="0,0,0,0"/>
             </StackLayout>
         </ScrollView>
     </Grid>

@@ -24,7 +24,7 @@
             </StackLayout>
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
-                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
+                    <Image Source="Route1_C016.png" VerticalOptions="Center" HeightRequest="200"/>
                     <Label Text=""/>
                     <Label Text="The 100 of Lier 2021/2022" FontAttributes="Bold" FontSize="Title"/>
                     <Label Text="
@@ -43,7 +43,7 @@
                         FontAttributes="Bold"
                         CornerRadius="20"/>
                     <Label Text=""/>
-                    <Image Source="Route1_C016.png" VerticalOptions="Center"/>
+                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
                 </StackLayout>
             </ScrollView>
         </Grid>
