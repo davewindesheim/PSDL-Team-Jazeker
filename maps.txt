@@ -1,0 +1,1 @@
+To run the map inside the app, create an API key through console.developers.google.com and put this inside the AndroidManifest.xml at the android:value="" 
