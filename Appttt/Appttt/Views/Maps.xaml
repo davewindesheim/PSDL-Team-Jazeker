@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Appttt.Views.Maps"
+             Shell.NavBarIsVisible="False">
+
+    <AbsoluteLayout>
+        <maps:Map IsShowingUser="True" x:Name="map" 
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All" 
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="FillAndExpand"/>
+        <Button Text="My Routes" Margin="120,10,60,20"
+          AbsoluteLayout.LayoutBounds="0, 1, AutoSize, AutoSize"
+          AbsoluteLayout.LayoutFlags="PositionProportional"
+          HeightRequest="50"
+          WidthRequest="150"
+          CornerRadius="20" />
+    </AbsoluteLayout>
+</ContentPage>
