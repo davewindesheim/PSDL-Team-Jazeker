@@ -1,0 +1,5 @@
+Xam.Plugin.Media 	5.0.1
+Xamarin.Essentials 	1.7.0
+Xamarin.Forms 		5.0.0.2244
+ZXing.Net.Mobile 	2.4.1
+ZXing.Net.Mobile.Forms 	2.4.1
