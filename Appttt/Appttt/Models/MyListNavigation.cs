@@ -1,6 +1,7 @@
 ﻿using System;
 namespace MyListNavigation.Models
 {
+    // Currently the model for the MyListModel, the current Shop.
     public class MyListModel
     {
         public int id { get; set; }

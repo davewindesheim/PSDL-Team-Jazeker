@@ -6,6 +6,11 @@
              Shell.NavBarIsVisible="False">
 
     <AbsoluteLayout>
+        <!--
+                Uses an AbsoluteLayout to force the map to fillandexpand with a button in the layout,
+                Button will redirect to My Routes which is yet to be made.
+                "Map" is the currently Xamarin.Forms.Maps show, it also shows the user on Map.
+            -->
         <maps:Map IsShowingUser="True" x:Name="map" 
                AbsoluteLayout.LayoutBounds="0,0,1,1"
                AbsoluteLayout.LayoutFlags="All" 

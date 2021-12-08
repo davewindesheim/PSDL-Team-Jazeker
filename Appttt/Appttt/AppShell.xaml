@@ -28,7 +28,10 @@
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
     </Shell.Resources>
-
+    <!--
+        ShellContent is the navigation bar, change local: to w/e page u want the button to show.
+        As following AboutPage is the first page and so on.
+    -->
     <TabBar>
         <ShellContent Title="Home" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Shop" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:MyListPage}" />

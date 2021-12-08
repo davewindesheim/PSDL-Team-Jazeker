@@ -11,6 +11,11 @@
     </ContentPage.BindingContext>
     
     <ContentPage.Content>
+        <!--
+                Entries for Participant, Route, Date, Distance, Start time and Stop Time.
+                Participant has been forced to a Numeric keyboard, the same goes for Distance.
+                Date has a datepicker option which is a Xamarin package, same goes for Start Time and Stop time.
+            -->
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
             <Entry x:Name="Participant" Keyboard="Numeric" FontSize="Body"></Entry>
             <Entry x:Name="Route" FontSize="Body"></Entry>

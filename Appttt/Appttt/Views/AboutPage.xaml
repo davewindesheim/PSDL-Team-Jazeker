@@ -21,6 +21,9 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+        <!--
+               Currently holds the top green bar in place, a bit messy.
+            -->
         <StackLayout BackgroundColor="#FF32CD31" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,0" VerticalOptions="FillAndExpand">
@@ -28,6 +31,12 @@
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
+            <!--
+                Grid has rows, look into Grid documentation for more info, we use Spacing 2 for more text on frontpage.
+                For each title we use Bold and a Size.
+                First button opens web command with the correct website to newtownfestival.
+                Website links can be added to buttons through the ViewModels/AboutViewModels.cs
+            -->
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="2">
                 <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
                 <Label Text=""/>

@@ -13,7 +13,7 @@ namespace MyListNavigation.ViewModel
         public MyListPageViewModel()
         {
 
-
+            // The current listcollector, here routes can be added to the list with the correct Routename, routedetail and ID.
             MyListCollector = new ObservableCollection<MyListModel>()
             {
                 new MyListModel(){id = 1 , RouteName = "The 100 of Lier 2021/2022 " , RouteDetail = "Although Flanders has many beautiful cities" },

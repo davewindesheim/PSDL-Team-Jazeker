@@ -4,8 +4,11 @@
              x:Class="Appttt.Views.MyListPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-
-          <ListView x:Name="flowlistview" ItemsSource="{Binding MyListCollector}" ItemTapped="Handle_ItemTapped" VerticalOptions="FillAndExpand" RowHeight="75">
+        <!--
+                currently flowlistview is the name of the List which we use to handle our Shop, if item tapped we redirect
+                to the correct xaml for the route, more information could be found at Models/MyListNavigation.cs
+            -->
+        <ListView x:Name="flowlistview" ItemsSource="{Binding MyListCollector}" ItemTapped="Handle_ItemTapped" VerticalOptions="FillAndExpand" RowHeight="75">
             <ListView.ItemTemplate>
                 <DataTemplate>
                 <TextCell Detail="{Binding RouteDetail}" Text="{Binding RouteName}" />                

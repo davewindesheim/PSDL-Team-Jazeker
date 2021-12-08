@@ -7,6 +7,7 @@ namespace Appttt.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {
+        // place where we currently link the OpenWebCommand Buttons to the correct websites for the shop and frontpage
         public AboutViewModel()
         {
             Title = "Virtual Tourist";

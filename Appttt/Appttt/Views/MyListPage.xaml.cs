@@ -11,11 +11,12 @@ namespace Appttt.Views
         public MyListPage()
         {
             InitializeComponent();
+            // Binds the myListPage Model to myListPage
             BindingContext = new MyListPageViewModel();
         }
 
 
-
+        // When item tapped myselectedItem selects the right route
         async private void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
 

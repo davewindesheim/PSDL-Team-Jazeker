@@ -16,9 +16,13 @@ namespace Appttt.Views
         public Maps()
         {
             InitializeComponent();
+            // Runs the DisplayCurLocation function
             DisplayCurLoc();
         }
-
+        // Is the map tool for the app, currently requests the GeoLocation through a seperate var,
+        // check GeolocationAccuracy documentation if you want to make it better currently set to Medium.
+        // awaits the request returns the geolocation to the map which will show where you are on the map also moves
+        // to the right place on load up because of mapSpan.
         public async void DisplayCurLoc()
         {
             try

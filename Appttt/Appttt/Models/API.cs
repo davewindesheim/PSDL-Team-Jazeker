@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Appttt.Models
 {
+    // outdated
     public class API
     {
         public string activityMaxspeedMs { get; set; }

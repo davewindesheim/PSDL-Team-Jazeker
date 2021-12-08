@@ -20,6 +20,8 @@ namespace Appttt.Views
         {
             InitializeComponent();
         }
+        // When camera button is clicked the code below awaits the camera and checks for permission,
+        // if not granted yet it asks for permission.
         private async void ShowCamera_Clicked(object sender, EventArgs e)
         {
             Plugin.Media.Abstractions.MediaFile photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
@@ -40,6 +42,8 @@ namespace Appttt.Views
                 return;
             }
         }
+        // Button to get current Location, it currently returns the Latitude and Longitude in text, the task.delay
+        // should be in the documentation of Geolocation.
         async void Button_Clicked(System.Object sender, System.EventArgs e)
         {
             isGettingLocation = true;
@@ -55,12 +59,14 @@ namespace Appttt.Views
             }
 
         }
+        // Button to stop the current location tracking.
         void Button1_Clicked(System.Object sender, System.EventArgs e)
         {
             isGettingLocation = false;
 
         }
-
+        // Creates an Display alert when user clicks on the button, it currently shows the whole Privacy policy
+        // the \n makes the text show on the next row, finish the function with an "Ok" which is currently the agree button.
         private async void ButtonShowAlert_Clicked(object sender, System.EventArgs e)
         {
             await DisplayAlert("Privacy Policy Statement for JVE-OGT", "Privacy Policy Statement for Google Android JVE-OGT app for tracking by JVE" + "\n" +
@@ -104,7 +110,8 @@ namespace Appttt.Views
             isGettingLocation = false;
 
         }
-
+        // Creates an Display alert when user clicks on the button, it currently shows the whole Prominent Disclosure Statement
+        // the \n makes the text show on the next row, finish the function with an "Ok" which is currently the agree button.
         private async void ButtonShowAlert_Clicked2(object sender, System.EventArgs e)
         {
             await DisplayAlert("Prominent Disclosure Statement", "Prominent Disclosure Statement for GPS recording by JVE-OGT application" + "\n" +
@@ -118,7 +125,8 @@ namespace Appttt.Views
                 + "\n" + "\nCollected data by the app are not used to provide ads/support advertising/support ad." + "\nThe app does not know who you are at all."
                 + "\n" + "\nKinds regards" + "\nJahoma" + "\n" + "\nProminent Disclosure Statement  updated : 24 jan 2021", "Ok");
         }
-
+        // Button to open the current QR scanner, it awaits for user to show an QR when succesfully scan, it returns "result"
+        // the results currently shows in an DisplayAlert which should be updated later on.
         private async void Button_ClickedScan(object sender, EventArgs e)
         {
             var scan = new ZXingScannerPage();

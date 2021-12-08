@@ -22,6 +22,15 @@
                     </ContentView>
                 </StackLayout>
             </StackLayout>
+            <!--
+                Grid has rows, look into Grid documentation for more info, we use Spacing 5 as it looks good,
+                Image Source shows the right image, centers this with VerticalOptions and an empty Label is a simple empty space (enter)
+                &#x0a; means empty space (enter) in xaml.
+                Button routes to the right URL which can be changed at X
+                CornerRadius makes the buttons look rounded.
+                virtualtouristflevoland.png is currently the standard logo
+                Website links can be added to buttons through the ViewModels/AboutViewModels.cs
+            -->
             <ScrollView Grid.Row="1">
                 <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
                     <Image Source="Route2_LangePier.png" VerticalOptions="Center" HeightRequest="200"/>
