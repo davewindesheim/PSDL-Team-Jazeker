@@ -12,10 +12,14 @@
     
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-            <Entry x:Name="user_1" FontSize="Body"></Entry>
-            <Entry x:Name="user_2" FontSize="Body"></Entry>
-            <Entry x:Name="user_3" FontSize="Body"></Entry>
-            <Entry x:Name="user_4" FontSize="Body"></Entry>
+            <Entry x:Name="Participant" Keyboard="Numeric" FontSize="Body"></Entry>
+            <Entry x:Name="Route" FontSize="Body"></Entry>
+            <DatePicker x:Name="Date" FontSize="Body" Format="D"></DatePicker>
+            <Entry x:Name="Distance" Keyboard="Numeric" FontSize="Body"></Entry>
+            <Label Text="Start time"/>
+            <TimePicker x:Name="StartTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Label Text="Stop time"/>
+            <TimePicker x:Name="StopTime" FontSize="Body" Format="HH:mm"></TimePicker>
             <Button Margin="60,10,60,0" Text="Send"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" 
@@ -30,7 +34,7 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Entry x:Name="entry" Text="123456789" />
+            <Entry x:Name="entry" Keyboard="Numeric" Text="123456789" />
             <Button Margin="60,10,60,0" Text="Retrieve"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"

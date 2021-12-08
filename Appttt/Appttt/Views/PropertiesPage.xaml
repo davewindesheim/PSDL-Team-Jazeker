@@ -6,13 +6,13 @@
              Shell.NavBarIsVisible="False">
     <ScrollView Grid.Row="1">
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-            <Button Text="Scan" Clicked="Button_ClickedScan"/>
-            <Button Text="Privacy Policy" x:Name="ButtonShowAlert" Clicked="ButtonShowAlert_Clicked"/>
-            <Button Text="Prominent Disclosure Statement" x:Name="ButtonShowAlert2" Clicked="ButtonShowAlert_Clicked2"/>
+            <Button Text="Scan" CornerRadius="20" Clicked="Button_ClickedScan"/>
+            <Button Text="Privacy Policy" x:Name="ButtonShowAlert" CornerRadius="20" Clicked="ButtonShowAlert_Clicked"/>
+            <Button Text="Prominent Disclosure Statement" x:Name="ButtonShowAlert2" CornerRadius="20" Clicked="ButtonShowAlert_Clicked2"/>
             <Label x:Name="resultLocation" />
-            <Button Text="Get Location" Clicked="Button_Clicked"/>
-            <Button Text="Stop locating" Clicked="Button1_Clicked"/>
-            <Button Text="Camera" x:Name="ShowCamera" Clicked="ShowCamera_Clicked"/>
+            <Button Text="Get Location" CornerRadius="20" Clicked="Button_Clicked"/>
+            <Button Text="Stop locating" CornerRadius="20" Clicked="Button1_Clicked"/>
+            <Button Text="Camera" x:Name="ShowCamera" CornerRadius="20" Clicked="ShowCamera_Clicked"/>
             <Image x:Name="PhotoImage"/>
         </StackLayout>
     </ScrollView>

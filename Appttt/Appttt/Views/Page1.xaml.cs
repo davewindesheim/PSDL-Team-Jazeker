@@ -15,10 +15,12 @@ namespace Appttt.Views
         public Page1()
         {
             InitializeComponent();
-            user_1.Text = "Participant number";
-            user_2.Text = "Route";
-            user_3.Text = "Distance";
-            user_4.Text = "Time";
+            Participant.Text = "Participant number";
+            Route.Text = "Route name";
+            Date.Date = DateTime.Now.Date;
+            StartTime.Time = DateTime.Now.TimeOfDay;
+            StopTime.Time = DateTime.Now.TimeOfDay;
+            Distance.Text = "Distance";
         }
     }
 }

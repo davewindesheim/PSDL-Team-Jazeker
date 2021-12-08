@@ -36,7 +36,7 @@
                        &#x0a;Discover the secret pearls of the New Land, the infinite expanse of nature, impressive landscape art, old airplanes and archaeological finds, stories of the islanders on Urk and Schokland, which have recently become world heritage sites. 
                        &#x0a;And of course modern architecture and landscape art in the newest part of Europe. And you do all this on your own bike around your own home. How is that possible?" FontSize="16" Padding="0,0,0,0"/>
                 <Label Text=""/>
-                <Button Margin="60,10,60,0" Text="Subscribe"
+                <Button Margin="60,10,60,0" Text="Website"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" 
@@ -47,6 +47,18 @@
                 <Label Text="A virtual challenge is simply a journey that we have set out in an environment and that we can experience from home.
                        &#x0a;You can cycle or walk our tour outside or inside, in your own environment, wherever and whenever you want. 
                        &#x0a;You are outside in lovely weather or inside when its bad weather on your exercise bike or you just use your pedometer." FontSize="16" Padding="0,0,0,0"/>
+                <Label Text=""/>
+                <Image Source="frontpageicon2.png" VerticalOptions="Center" HeightRequest="100" />
+                <Label Text=""/>
+                <Label Text="How does it work?" FontAttributes="Bold" FontSize="Title"/>
+                <Label Text="1. Choose a virtual bike ride and sign up
+                       &#x0a;2. Do you cycle for miles outside or inside
+                       &#x0a;3. Register your rides with Strava
+                       &#x0a;4. Upload your trips in kilometers on our site
+                       &#x0a;5. See how far you are (possibly if you cycle together in a team)
+                       &#x0a;6. Experience your journey through personal emails with stories and great offers
+                       &#x0a;7. Decide for yourself in how many trips you will cover the 150-kilometre route. On each ride there are about 15 to 20 pearls that you visit
+                       &#x0a;8. Receive your earned reward when you finish " FontSize="16" Padding="0,0,0,0"/>
             </StackLayout>
         </ScrollView>
     </Grid>
