@@ -30,7 +30,7 @@ namespace Appttt.Models
         public string Distance { get; set; }
         public string StartTime { get; set; }
         public string StopTime { get; set; }
-        public string activityDuraionS { get; internal set; }
+        public string activityDurationS { get; internal set; }
     }
 }
 
