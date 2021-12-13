@@ -41,7 +41,7 @@ namespace Appttt.Views
 				activityStopDateTime = txtStopTime,
 				activityType = "TYPE_Bike",
 				externalsourceIdStr = "JAZEKER",
-				externalSourceeVersionStr = "v0.1i-07Feb2021-1",
+				externalSourceVersionStr = "v0.1i-07Feb2021-1",
 			};
 
 			Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appactadd");
