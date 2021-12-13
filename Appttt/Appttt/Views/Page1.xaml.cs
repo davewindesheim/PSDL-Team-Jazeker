@@ -33,7 +33,7 @@ namespace Appttt.Views
 				activityStarttimeStr = txtStartTime,
 				activityStoptimeStr = txtStopTime,
 				activityDistanceM = txtDistance.Text,
-				activityDuraionS = "10472",
+				activityDurationS = "10472",
 				activityMaxspeedMs = "41,5",
 				activityDescriptionStr = "dinsdag middag in Flevoland",
 				activityGpxIdStr = "10472010|1623222398310|163223445510",
@@ -47,11 +47,10 @@ namespace Appttt.Views
 			Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appactadd");
 
 			var client = new HttpClient();
-			var json = JsonConvert.SerializeObject(mem);
-			var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
-			var Accesstoken = "X-AUTH-TOKEN KustwachtScheveningen";
-			client.DefaultRequestHeaders.Add("Authorization", "Api-key " + Accesstoken);
-			var response = await client.PostAsync(RequestUri, contentJson);
+            		client.DefaultRequestHeaders.Add("x-auth-token", "KustwachtScheveningen");
+            		var json = JsonConvert.SerializeObject(mem);
+            		var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
+            		var response = await client.PostAsync(RequestUri, contentJson);
 			if (response.StatusCode == HttpStatusCode.OK)
 			{
 				await DisplayAlert("Data", "Succes. Verzending succesvol.", "Ok");
