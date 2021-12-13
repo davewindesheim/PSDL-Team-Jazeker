@@ -22,7 +22,7 @@ namespace Appttt.Models
         internal TimePicker activityStopDateTime;
         internal string activityType;
         internal string externalsourceIdStr;
-        internal string externalSourceeVersionStr;
+        internal string externalSourceVersionStr;
 
         public string ActivityMaxspeedMs { get; set; }
         public string Participant { get; set; }
