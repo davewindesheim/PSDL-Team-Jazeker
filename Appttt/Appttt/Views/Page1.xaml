@@ -9,23 +9,22 @@
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
-    <ContentPage.Content>
-        <!--
+    <!--
                 Entries for Participant, Route, Date, Distance, Start time and Stop Time.
                 Participant has been forced to a Numeric keyboard, the same goes for Distance.
                 Date has a datepicker option which is a Xamarin package, same goes for Start Time and Stop time.
             -->
+    <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-            <Entry x:Name="Participant" Keyboard="Numeric" FontSize="Body"></Entry>
-            <Entry x:Name="Route" FontSize="Body"></Entry>
-            <DatePicker x:Name="Date" FontSize="Body" Format="D"></DatePicker>
-            <Entry x:Name="Distance" Keyboard="Numeric" FontSize="Body"></Entry>
+            <Entry x:Name="txtParticipant" Keyboard="Numeric" FontSize="Body" Placeholder="Participant number"></Entry>
+            <Entry x:Name="txtRoute" FontSize="Body" Placeholder="Route name"></Entry>
+            <DatePicker x:Name="txtDate" FontSize="Body" Format="D"></DatePicker>
+            <Entry x:Name="txtDistance" Keyboard="Numeric" FontSize="Body" Placeholder="Distance"></Entry>
             <Label Text="Start time"/>
-            <TimePicker x:Name="StartTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <TimePicker x:Name="txtStartTime" FontSize="Body" Format="HH:mm"></TimePicker>
             <Label Text="Stop time"/>
-            <TimePicker x:Name="StopTime" FontSize="Body" Format="HH:mm"></TimePicker>
-            <Button Margin="60,10,60,0" Text="Send"
+            <TimePicker x:Name="txtStopTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Button Clicked="BtnSend_Clicked" Margin="60,10,60,0" Text="Send"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" 
                         FontAttributes="Bold"
