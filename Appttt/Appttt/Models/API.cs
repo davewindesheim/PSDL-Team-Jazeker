@@ -7,7 +7,7 @@ using Xamarin.Forms;
 namespace Appttt.Models
 {
 
-    public class API
+    public class APIPayload
     {
         internal string jahomaSmartIdStr;
         internal string contestIdStr;
@@ -22,15 +22,15 @@ namespace Appttt.Models
         internal TimePicker activityStopDateTime;
         internal string activityType;
         internal string externalsourceIdStr;
-        internal string externalSourceeVersionStr;
+        internal string externalSourceVersionStr;
 
-        public string ActivityMaxspeedMs { get; set; }
-        public string Participant { get; set; }
-        public string Route { get; set; }
-        public string Distance { get; set; }
-        public string StartTime { get; set; }
-        public string StopTime { get; set; }
-        public string activityDuraionS { get; internal set; }
+        public string ActivityMaxspeedMs { get; internal set; }
+        public string Participant { get; internal set; }
+        public string Route { get; internal set; }
+        public string Distance { get; internal set; }
+        public string StartTime { get; internal set; }
+        public string StopTime { get; internal set; }
+        public string activityDurationS { get; internal set; }
     }
 }
 
