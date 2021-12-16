@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appttt.Views.Page1"
+             xmlns:vm="clr-namespace:Appttt.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <Entry x:Name="txtParticipant" Keyboard="Numeric" FontSize="Body" Placeholder="Participant number"></Entry>
+            <Entry x:Name="txtRoute" FontSize="Body" Placeholder="Route name"></Entry>
+            <DatePicker x:Name="txtDate" FontSize="Body" Format="D"></DatePicker>
+            <Entry x:Name="txtDistance" Keyboard="Numeric" FontSize="Body" Placeholder="Distance"></Entry>
+            <Label Text="Start time"/>
+            <TimePicker x:Name="txtStartTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Label Text="Stop time"/>
+            <TimePicker x:Name="txtStopTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Button Clicked="BtnSend_Clicked" Margin="60,10,60,0" Text="Send"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+            <Label FontSize="16" Padding="0,24,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Enter your unique participant number" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Entry x:Name="entry" Keyboard="Numeric" Text="123456789" />
+            <Button Margin="60,10,60,0" Text="Retrieve"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

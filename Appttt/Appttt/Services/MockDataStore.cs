@@ -14,12 +14,14 @@ namespace Appttt.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-65", Description="Product JVE-65 – Team Friesland This is your products main body of content. Here you should describe your product in detail." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-60-Windesheim", Description="Dit is een kopie van ‘Jonge parels’ maar dan special voor de ICT studenten van Windesheim Almere t.b.v. van hun ICT project." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-63", Description="Product short description for JVE-63" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-62", Description="Het midden van Flevoland verrast je door de enorme ruimte die je ervaart, in het voorjaar vol tulpen, de nieuwe Markerwadden middenin in het IJsselmeer." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "JVE-61", Description="JVE-61 Jonge Parels is een virtuele route rondom Almere en deze nieuwe stad heeft veel verrassende plekjes. Het is meer dan steen alleen." },
             };
         }
 
