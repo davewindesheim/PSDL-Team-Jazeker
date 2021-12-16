@@ -29,25 +29,25 @@ namespace Appttt.Views
 		{
 			APIPayload mem = new APIPayload
 			{
-				jahomaSmartIdStr = "2853325", // txtParticipant.Text,
-				contestIdStr = "60", //txtRoute.Text,
+				jahomaSmartIdStr = txtParticipant.Text,
+				contestIdStr = txtRoute.Text,
 				activityDateStr = txtDate.Date,
-				activityStarttimeStr = txtStartTime,
-				activityStoptimeStr = txtStopTime,
+				activityStarttimeStr = txtStartTime.Text,
+				activityStoptimeStr = txtStopTime.Text,
 				activityDistanceM = txtDistance.Text,
 				activityDurationS = "20472",
 				activityMaxspeedMs = "412",
 				activityDescriptionStr = "dinsdag middag in Flevoland",
 				activityGpxIdStr = "10472025|1623222398325|163223445525",
-				activityStartDatetime = txtStartTime,
-				activityStopDateTime = txtStopTime,
+				activityStartDatetime = txtStartTime.Text,
+				activityStopDateTime = txtStopTime.Text,
 				activityType = "TYPE_Bike",
 				externalsourceIdStr = "JAZEKER",
 				externalSourceVersionStr = "v0.1i-07Feb2021-1",
 			};
 
-			// Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appactadd");
-			Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appgetconfig");
+			Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appactadd");
+			//Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appgetconfig");
 
 			var client = new HttpClient();
 			client.DefaultRequestHeaders.Add("x-auth-token", "KustwachtScheveningen");
@@ -62,7 +62,7 @@ namespace Appttt.Views
 
 			else if (response.StatusCode == HttpStatusCode.Unauthorized)
 			{
-				await DisplayAlert("Data", "Error. Authorisatie gefaald.", "Ok");
+				await DisplayAlert("Data", "Error. Authorisatie gefaald." + json, "Ok");
 			}
 
 			else if (response.StatusCode == HttpStatusCode.MethodNotAllowed)

@@ -17,9 +17,9 @@
             <DatePicker x:Name="txtDate" FontSize="Body" Format="D"></DatePicker>
             <Entry x:Name="txtDistance" Keyboard="Numeric" FontSize="Body" Placeholder="Distance"></Entry>
             <Label Text="Start time"/>
-            <TimePicker x:Name="txtStartTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Entry x:Name="txtStartTime" FontSize="Body" Placeholder="00:00"></Entry>
             <Label Text="Stop time"/>
-            <TimePicker x:Name="txtStopTime" FontSize="Body" Format="HH:mm"></TimePicker>
+            <Entry x:Name="txtStopTime" FontSize="Body" Placeholder="00:00"></Entry>
             <Button Clicked="BtnSend_Clicked" Margin="60,10,60,0" Text="Send"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" 
