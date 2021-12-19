@@ -45,6 +45,15 @@
                         TextColor="White" 
                         FontAttributes="Bold"
                         CornerRadius="20"/>
+                    <Button Margin="60,10,60,0" Text="Leaderboards" 
+                        Clicked="Button_Leaderboards"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" 
+                        FontAttributes="Bold"
+                        CornerRadius="20"/>
+                    <ScrollView>
+                        <WebView x:Name="Browser" VerticalOptions="FillAndExpand" HeightRequest="1500"/>
+                    </ScrollView>
                     <Label Text=""/>
                     <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
                 </StackLayout>

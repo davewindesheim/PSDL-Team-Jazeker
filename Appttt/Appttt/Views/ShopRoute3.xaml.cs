@@ -16,5 +16,10 @@ namespace Appttt
         {
             InitializeComponent();
         }
+        private void Button_Leaderboards(object sender, EventArgs e)
+        {
+            var Url = "https://jve.jahoma.nl/nl/contest/60/";
+            Browser.Source = Url;
+        }
     }
 }

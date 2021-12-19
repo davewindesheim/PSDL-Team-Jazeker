@@ -53,8 +53,9 @@
                         TextColor="White" 
                         FontAttributes="Bold"
                         CornerRadius="20"/>
-                    <Label Text=""/>
-                    <Image Source="virtualtouristflevoland.png" VerticalOptions="Center" HeightRequest="100" />
+                    <ScrollView>
+                        <WebView x:Name="Browser" VerticalOptions="FillAndExpand" HeightRequest="1500"/>
+                    </ScrollView>
                 </StackLayout>
             </ScrollView>
         </Grid>

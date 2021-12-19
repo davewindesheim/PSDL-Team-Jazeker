@@ -33,7 +33,7 @@ namespace Appttt.Views
 				activityStarttimeStr = txtStartTime,
 				activityStoptimeStr = txtStopTime,
 				activityDistanceM = txtDistance.Text,
-				activityDuraionS = "10472",
+				activityDurationS = "10472",
 				activityMaxspeedMs = "41,5",
 				activityDescriptionStr = "dinsdag middag in Flevoland",
 				activityGpxIdStr = "10472010|1623222398310|163223445510",
@@ -41,7 +41,7 @@ namespace Appttt.Views
 				activityStopDateTime = txtStopTime,
 				activityType = "TYPE_Bike",
 				externalsourceIdStr = "JAZEKER",
-				externalSourceeVersionStr = "v0.1i-07Feb2021-1",
+				externalSourceVersionStr = "v0.1i-07Feb2021-1",
 			};
 
 			Uri RequestUri = new Uri("https://jve.jahoma.nl/nl/api/app_upload_activity/appactadd");

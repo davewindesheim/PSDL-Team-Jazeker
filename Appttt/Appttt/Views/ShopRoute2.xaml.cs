@@ -15,6 +15,8 @@ namespace Appttt
         public ShopRoute2()
         {
             InitializeComponent();
+            var Url = "https://jve.jahoma.nl/nl/contest/15/";
+            Browser.Source = Url;
         }
     }
 }
