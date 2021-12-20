@@ -21,6 +21,7 @@
           AbsoluteLayout.LayoutFlags="PositionProportional"
           HeightRequest="50"
           WidthRequest="150"
-          CornerRadius="20" />
+          CornerRadius="20" 
+          HorizontalOptions="Center"/>
     </AbsoluteLayout>
 </ContentPage>

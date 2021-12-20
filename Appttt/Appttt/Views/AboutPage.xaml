@@ -5,7 +5,7 @@
              xmlns:vm="clr-namespace:Appttt.ViewModels" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              Title="{Binding Title}"
              Shell.NavBarIsVisible="False">
-    
+
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>

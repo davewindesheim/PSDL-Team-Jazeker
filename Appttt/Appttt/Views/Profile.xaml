@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appttt.Views.Profile"
+             BackgroundColor="White"
+             Shell.NavBarIsVisible="False">
+    
+    <ScrollView>
+            <Grid ColumnSpacing="0" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="AUTO" />
+                </Grid.RowDefinitions>
+
+                <!-- header background -->
+            <Image Source="bikerideprofile.png" Aspect="AspectFill"/>
+            <Image Source="masking.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
+
+            <!-- profile image -->
+            <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+            <Image Source="settingsbutton.png" Margin="0,0,-250,-40" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="infobutton.png" Margin="0,0,250,-40" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <!-- Profile Name -->
+                <StackLayout Grid.Row="1" HorizontalOptions="Center" Padding="0,50,0,00">
+                <Entry HorizontalTextAlignment="Center" Text="Karel van der Laan" FontSize="24" TextColor="LimeGreen"/>
+                <Label HorizontalTextAlignment="Center" Text="Starter" Margin="0,-5"/>
+                </StackLayout>
+
+                <!-- Social Stats Section -->
+            <Grid Grid.Row="2" ColumnSpacing="0" RowSpacing="0" Margin="0,30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0"
+                             HorizontalOptions="Center" >
+                    <Label Text="6"
+                           HorizontalOptions="Center" />
+                    <Label Text="Routes"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1"
+                             HorizontalOptions="Center">
+                    <Label Text="4"
+                           TextColor="Green"
+                           HorizontalOptions="Center" />
+                    <Label Text="Completed"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="2"
+                             HorizontalOptions="Center" >
+                    <Label Text="24" HorizontalOptions="Center"/>
+                    <Label Text="Achievements"/>
+                </StackLayout>
+            </Grid>
+
+        </Grid>
+        </ScrollView>
+    </ContentPage>
