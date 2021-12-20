@@ -35,7 +35,7 @@
                 <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
                     <Image Source="Route2_LangePier.png" VerticalOptions="Center" HeightRequest="200"/>
                     <Label Text=""/>
-                    <Label Text="The 100 of Lier 2021/2022" FontAttributes="Bold" FontSize="Title"/>
+                    <Label Text="The 1000 of Lier 2021/2022" FontAttributes="Bold" FontSize="Title"/>
                     <Label Text="
 &#x0a;Lier: 'Pearl of Flanders'
 &#x0a;

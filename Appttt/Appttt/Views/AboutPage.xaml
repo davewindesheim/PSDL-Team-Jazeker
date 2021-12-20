@@ -67,7 +67,11 @@
                        &#x0a;5. See how far you are (possibly if you cycle together in a team)
                        &#x0a;6. Experience your journey through personal emails with stories and great offers
                        &#x0a;7. Decide for yourself in how many trips you will cover the 150-kilometre route. On each ride there are about 15 to 20 pearls that you visit
-                       &#x0a;8. Receive your earned reward when you finish " FontSize="16" Padding="0,0,0,0"/>
+                       &#x0a;8. Receive your earned reward when you finish 
+                       &#x0a;
+                       &#x0a;" FontSize="16" Padding="0,0,0,0"/>
+                <Button Text="Privacy Policy" x:Name="ButtonShowAlert" CornerRadius="20" Clicked="ButtonShowAlert_Clicked"/>
+                <Button Text="Prominent Disclosure Statement" x:Name="ButtonShowAlert2" CornerRadius="20" Clicked="ButtonShowAlert_Clicked2"/>
             </StackLayout>
         </ScrollView>
     </Grid>

@@ -35,7 +35,7 @@
                 <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="5">
                     <Image Source="Route3_Windesheim.png" VerticalOptions="Center" HeightRequest="200" />
                     <Label Text=""/>
-                    <Label Text="The 100 of Lier 2021/2022" FontAttributes="Bold" FontSize="Title"/>
+                    <Label Text="JVE-60-Windesheim" FontAttributes="Bold" FontSize="Title"/>
                     <Label Text="This is a copy of 'Young pearls' but specially for the ICT students of Windesheim Almere for their ICT project.
 &#x0a;
                            &#x0a;For the Windesheimers there is a special code to register. Do you belong to a team? Ask your team captain for the team name to use. " FontSize="16" Padding="0,0,0,0"/>
