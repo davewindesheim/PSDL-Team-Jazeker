@@ -22,10 +22,11 @@
             <!-- Background -->
             <Image Source="bikerideprofile.png" Aspect="AspectFill"/>
             <Image Source="masking.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
-            
 
             <!-- Profile -->
-            <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
+            <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" VerticalOptions="End"/>
+
+            <!-- Settings, camera, qr scanner & info -->
             <Image Source="settingsbutton.png" Margin="0,0,-350,-20" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
@@ -62,7 +63,7 @@
                 </Grid.ColumnDefinitions>
 
                 <StackLayout Grid.Column="0"
-                             HorizontalOptions="Center" >
+                             HorizontalOptions="Center">
                     <Label Text="6" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
                     <Label Text="Routes" FontSize="14"/>
                 </StackLayout>
@@ -79,7 +80,9 @@
                     <Label Text="Achievements" FontSize="14"/>
                 </StackLayout>
             </Grid>
+            <!-- Leaderboards -->
             <StackLayout Grid.Row="3" Margin="0" HorizontalOptions="Center" Padding="0,50,0,0">
+                <Image Source="competition.png" Margin="0,0,0,0" HeightRequest="80" WidthRequest="80" HorizontalOptions="Center" VerticalOptions="End"/>
                 <local:BorderlessPicker x:Name="LeaderboardsPicker"
                     ItemsSource="{Binding Leaderboard}"
                     Title="Leaderboards" 
@@ -87,10 +90,11 @@
                     ItemDisplayBinding="{Binding ItemName}"
                     SelectedItem="{Binding SelectedLeaderboards}"
                     HorizontalOptions="Center"
-                    Margin="10">
+                    FontSize="25">
                     <Picker.Items>
                     </Picker.Items>
                 </local:BorderlessPicker>
+                <!-- Webview Leaderboards -->
                 <ScrollView>
                     <WebView Source="{Binding SelectedLeaderboards.Url}"  VerticalOptions="FillAndExpand" HeightRequest="1500"/>
                 </ScrollView>
