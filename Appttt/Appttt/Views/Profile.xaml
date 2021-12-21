@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local1="clr-namespace:Appttt.ViewModels"
+             xmlns:local="clr-namespace:Appttt;assembly=Appttt"
              x:Class="Appttt.Views.Profile"
              BackgroundColor="White"
              Shell.NavBarIsVisible="False">
@@ -18,11 +19,12 @@
                 <RowDefinition Height="AUTO" />
             </Grid.RowDefinitions>
 
-            <!-- header background -->
+            <!-- Background -->
             <Image Source="bikerideprofile.png" Aspect="AspectFill"/>
             <Image Source="masking.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
+            
 
-            <!-- profile image -->
+            <!-- Profile -->
             <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="End"/>
             <Image Source="settingsbutton.png" Margin="0,0,-350,-20" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
@@ -45,13 +47,13 @@
                 </Image.GestureRecognizers>
             </Image>
 
-            <!-- Profile Name -->
+            <!-- Profile -->
             <StackLayout Grid.Row="1" HorizontalOptions="Center" Padding="0,50,0,00">
-                <Entry HorizontalTextAlignment="Center" Text="Karel van der Laan" FontSize="24" TextColor="LimeGreen"/>
+                <local:CustomEntry x:Name="username" HorizontalTextAlignment="Center" Text="Karel van der Laan" FontSize="24" TextColor="{StaticResource Primary}"/>
                 <Label x:Name="scanResultText" HorizontalTextAlignment="Center" Text="Starter" Margin="0,-5"/>
             </StackLayout>
 
-            <!-- Social Stats Section -->
+            <!-- Achievements -->
             <Grid Grid.Row="2" ColumnSpacing="0" RowSpacing="0" Margin="0,30">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -61,34 +63,34 @@
 
                 <StackLayout Grid.Column="0"
                              HorizontalOptions="Center" >
-                    <Label Text="6" TextColor="Green" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="6" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
                     <Label Text="Routes" FontSize="14"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="1"
                              HorizontalOptions="Center">
-                    <Label Text="4" TextColor="Green" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="4" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
                     <Label Text="Completed" FontSize="14"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="2"
                              HorizontalOptions="Center" >
-                    <Label Text="24" TextColor="Green" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="24" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
                     <Label Text="Achievements" FontSize="14"/>
                 </StackLayout>
             </Grid>
             <StackLayout Grid.Row="3" Margin="0" HorizontalOptions="Center" Padding="0,50,0,0">
-                <Picker 
+                <local:BorderlessPicker x:Name="LeaderboardsPicker"
                     ItemsSource="{Binding Leaderboard}"
                     Title="Leaderboards" 
-                    TitleColor="ForestGreen"
+                    TitleColor="{StaticResource Primary}"
                     ItemDisplayBinding="{Binding ItemName}"
                     SelectedItem="{Binding SelectedLeaderboards}"
                     HorizontalOptions="Center"
                     Margin="10">
                     <Picker.Items>
                     </Picker.Items>
-                </Picker>
+                </local:BorderlessPicker>
                 <ScrollView>
                     <WebView Source="{Binding SelectedLeaderboards.Url}"  VerticalOptions="FillAndExpand" HeightRequest="1500"/>
                 </ScrollView>
