@@ -34,21 +34,21 @@
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="camerabutton.png" Margin="0,0,350,-20" HeightRequest="25" WidthRequest="35" HorizontalOptions="Center" VerticalOptions="End">
+            <Image Source="camerabutton.png" Margin="0,0,350,-20" HeightRequest="27" WidthRequest="35" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
                 </Image.GestureRecognizers>
             </Image>
             <Image Source="scanbutton.png" Margin="0,0,230,-35" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
                 </Image.GestureRecognizers>
             </Image>
 
             <!-- Profile Name -->
             <StackLayout Grid.Row="1" HorizontalOptions="Center" Padding="0,50,0,00">
                 <Entry HorizontalTextAlignment="Center" Text="Karel van der Laan" FontSize="24" TextColor="LimeGreen"/>
-                <Label HorizontalTextAlignment="Center" Text="Starter" Margin="0,-5"/>
+                <Label x:Name="scanResultText" HorizontalTextAlignment="Center" Text="Starter" Margin="0,-5"/>
             </StackLayout>
 
             <!-- Social Stats Section -->
@@ -93,6 +93,7 @@
                     <WebView Source="{Binding SelectedLeaderboards.Url}"  VerticalOptions="FillAndExpand" HeightRequest="1500"/>
                 </ScrollView>
             </StackLayout>
+            <Image x:Name="PhotoImage"/>
         </Grid>
     </ScrollView>
     </ContentPage>
