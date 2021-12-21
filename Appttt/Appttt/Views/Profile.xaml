@@ -24,25 +24,25 @@
             <Image Source="masking.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
 
             <!-- Profile -->
-            <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" VerticalOptions="End"/>
+            <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="120" WidthRequest="120" HorizontalOptions="Center" VerticalOptions="End"/>
 
             <!-- Settings, camera, qr scanner & info -->
-            <Image Source="settingsbutton.png" Margin="0,0,-350,-20" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
+            <Image Source="settingsbutton.png" Margin="0,0,-300,-20" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="infobutton.png" Margin="0,0,-230,-35" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
+            <Image Source="infobutton.png" Margin="0,0,-200,-35" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="camerabutton.png" Margin="0,0,350,-20" HeightRequest="27" WidthRequest="35" HorizontalOptions="Center" VerticalOptions="End">
+            <Image Source="camerabutton.png" Margin="0,0,300,-20" HeightRequest="27" WidthRequest="35" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="scanbutton.png" Margin="0,0,230,-35" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
+            <Image Source="scanbutton.png" Margin="0,0,200,-35" HeightRequest="30" WidthRequest="40" HorizontalOptions="Center" VerticalOptions="End">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
                 </Image.GestureRecognizers>
@@ -64,19 +64,19 @@
 
                 <StackLayout Grid.Column="0"
                              HorizontalOptions="Center">
-                    <Label Text="6" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="6" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="16"/>
                     <Label Text="Routes" FontSize="14"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="1"
                              HorizontalOptions="Center">
-                    <Label Text="4" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="4" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="16"/>
                     <Label Text="Completed" FontSize="14"/>
                 </StackLayout>
 
                 <StackLayout Grid.Column="2"
                              HorizontalOptions="Center" >
-                    <Label Text="24" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="14"/>
+                    <Label Text="2" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontSize="16"/>
                     <Label Text="Achievements" FontSize="14"/>
                 </StackLayout>
             </Grid>
