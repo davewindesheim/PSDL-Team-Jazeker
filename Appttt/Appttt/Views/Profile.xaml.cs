@@ -41,7 +41,14 @@ namespace Appttt.Views
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await Navigation.PopModalAsync();
-                    await DisplayAlert("Scanned", "" + result.Text, "Ok");
+                    if (result.Text.Contains("server.jahoma.nl"))
+                    {
+                        await DisplayAlert("Scanned", "" + result.Text, "Ok");
+                    }
+                    else
+                    {
+                        await DisplayAlert("Warning", "Invalid QR code!", "Ok");
+                    }
                 });
             };
         }
