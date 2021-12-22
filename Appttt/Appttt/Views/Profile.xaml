@@ -4,7 +4,6 @@
              xmlns:local1="clr-namespace:Appttt.ViewModels"
              xmlns:local="clr-namespace:Appttt;assembly=Appttt" 
              x:Class="Appttt.Views.Profile"
-             BackgroundColor="White"
              Shell.NavBarIsVisible="False">
     <ContentPage.BindingContext>
         <local1:PickerViewModel/>
@@ -21,7 +20,7 @@
 
             <!-- Background -->
             <Image Source="bikerideprofile.png" Aspect="AspectFill"/>
-            <Image Source="masking.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
+            <Image Source="{AppThemeBinding Light=masking.png, Dark=maskingDark.png}" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,-1"/>
 
             <!-- Profile -->
             <Image Source="virtualtouristflevoland.png" Margin="0,0,0,-50" HeightRequest="120" WidthRequest="120" HorizontalOptions="Center" VerticalOptions="End"/>

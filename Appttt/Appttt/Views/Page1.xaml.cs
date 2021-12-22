@@ -38,7 +38,7 @@ namespace Appttt.Views
 			 activityDescriptionStr = "dinsdag middag in Zeewolde",
 			 activityDistanceM = txtDistance.Text,
 			 activityDurationS = "10472",
-			 activityGpxIdStr = "10472089|1632223983089|163223445589",
+			 activityGpxIdStr = "10472090|1632223983090|163223445590",
 			 activityStarttimeStr = txtStartTime.Text,
 			 activityStoptimeStr = txtStopTime.Text,
 			 activityType = "TYPE_BIKE",

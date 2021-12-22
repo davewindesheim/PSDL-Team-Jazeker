@@ -13,9 +13,9 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
             <Entry x:Name="txtParticipant" Keyboard="Numeric" FontSize="Body" Placeholder="Participant number"></Entry>
-            <Entry x:Name="txtRoute" FontSize="Body" Placeholder="Route name"></Entry>
-            <Entry x:Name="txtDate" FontSize="Body" Text="22-12-2021"></Entry>
-            <Entry x:Name="txtDistance" Keyboard="Numeric" FontSize="Body" Placeholder="Distance"></Entry>
+            <Entry x:Name="txtRoute" FontSize="Body" Placeholder="Route number"></Entry>
+            <Entry x:Name="txtDate" FontSize="Body" Text="23-12-2021"></Entry>
+            <Entry x:Name="txtDistance" Keyboard="Numeric" FontSize="Body" Placeholder="Distance in meters"></Entry>
             <Label Text="Start time"/>
             <Entry x:Name="txtStartTime" FontSize="Body" Placeholder="00:00"></Entry>
             <Label Text="Stop time"/>

@@ -3,6 +3,8 @@ using Appttt.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
+using Appttt.ViewModels;
 
 namespace Appttt
 {
@@ -24,10 +26,22 @@ namespace Appttt
 
         protected override void OnSleep()
         {
+            TheTheme.SetTheme();
+            RequestedThemeChanged += App_RequestedThemeChanged;
         }
 
         protected override void OnResume()
         {
+            TheTheme.SetTheme();
+            RequestedThemeChanged += App_RequestedThemeChanged;
+        }
+
+        private void App_RequestedThemeChanged(object sender, AppThemeChangedEventArgs e)
+        {
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                TheTheme.SetTheme();
+            });
         }
     }
 }
