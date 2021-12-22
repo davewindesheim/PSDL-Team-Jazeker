@@ -7,30 +7,23 @@ using Xamarin.Forms;
 namespace Appttt.Models
 {
 
-    public class API
+    public class APIPayload
     {
-        internal string jahomaSmartIdStr;
-        internal string contestIdStr;
-        internal DateTime activityDateStr;
-        internal object activityStarttimeStr;
-        internal object activityStoptimeStr;
-        internal string activityDistanceM;
-        internal string activityMaxspeedMs;
-        internal string activityDescriptionStr;
-        internal string activityGpxIdStr;
-        internal TimePicker activityStartDatetime;
-        internal TimePicker activityStopDateTime;
-        internal string activityType;
-        internal string externalsourceIdStr;
-        internal string externalSourceVersionStr;
-
-        public string ActivityMaxspeedMs { get; set; }
-        public string Participant { get; set; }
-        public string Route { get; set; }
-        public string Distance { get; set; }
-        public string StartTime { get; set; }
-        public string StopTime { get; set; }
+        public string activityMaxspeedMs { get; internal set; }
+        public string activityStarttimeStr { get; internal set; }
+        public string activityStoptimeStr { get; internal set; }
+        public string activityDateStr { get; internal set; }
+        public string activityDescriptionStr { get; internal set; }
+        public string activityDistanceM { get; internal set; }
         public string activityDurationS { get; internal set; }
+        public string activityGpxIdStr { get; internal set; }
+        public string activityStartDatetime { get; internal set; }
+        public string activityStopDatetime { get; internal set; }
+        public string activityType { get; internal set; }
+        public string contestIdStr { get; internal set; }
+        public string externalSourceIdStr { get; internal set; }
+        public string externalSourceVersionStr { get; internal set; }
+        public string jahomaSmartIdStr { get; internal set; }
     }
 }
 
