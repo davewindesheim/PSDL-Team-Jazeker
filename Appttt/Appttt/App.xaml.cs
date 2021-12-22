@@ -14,6 +14,7 @@ namespace Appttt
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
+            Device.SetFlags(new[] { "MediaElement_Experimental", "Brush_Experimental" });
             MainPage = new AppShell();
         }
 

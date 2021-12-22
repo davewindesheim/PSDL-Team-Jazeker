@@ -22,7 +22,7 @@ namespace Appttt.Views
 
         private async void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AboutPage());
+            await Navigation.PushAsync(new Landing());
         }
 
         private async void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
