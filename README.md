@@ -45,5 +45,4 @@ Virtual Tourist
 ![6](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img6.png)
 ![5](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img5.png)
 ![4](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img4.png)
-![3](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img3.png)
 ![7](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img7.png)
