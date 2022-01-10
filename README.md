@@ -20,7 +20,7 @@ Virtual Tourist is build with Xamarin.Forms in C#.
 9. Press the phone name next to the start button to launch (use dropdown menu to select emulator/phone).
 10. After debugging you should have all the needed packages installed.
 11. Now we'll be building the solution into an actual APK.
-12. Set the option from step 8 from debugging to release.
+12. Set the option from step 5 from debugging to release.
 13. Right click the Appttt.Android and click Archive (this can take a while)
 ![archive](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/archive-img.png)
 14. If an error pops up do as following if not skip to step 19.
