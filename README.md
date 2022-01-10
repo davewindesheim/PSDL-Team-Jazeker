@@ -36,3 +36,14 @@ Virtual Tourist is build with Xamarin.Forms in C#.
 24. Now choose a folder to save your APK.
 25. It'll prompt a menu to put your password in.
 26. After this you're done, go to the saved folder and use the APK.
+
+
+Virtual Tourist
+------
+![1](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img1.png)
+![2](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img2.png)
+![6](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img6.png)
+![5](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img5.png)
+![4](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img4.png)
+![3](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img3.png)
+![7](https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/git-img/previewapk-img7.png)
