@@ -1,4 +1,4 @@
-<img width="120" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Virtual Tourist" src="https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/Appttt/Appttt/images/virtualtouristflevoland.png?size=1024"> 
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Virtual Tourist" src="https://github.com/davewindesheim/PSDL-Team-Jazeker/blob/main/Appttt/Appttt/images/virtualtouristflevoland.png?size=1024"> 
 
 # Virtual Tourist - Team Jazeker
 
