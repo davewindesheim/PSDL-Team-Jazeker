@@ -7,8 +7,8 @@
 
 > Do the virtual challenge
 
-###Virtual Tourist is build with Xamarin.Forms in C#. 
-======
+Virtual Tourist is build with Xamarin.Forms in C#. 
+------
 
 ### Installation
 1. Install Microsoft Virtual Studio.
