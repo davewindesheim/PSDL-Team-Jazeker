@@ -37,6 +37,23 @@ Virtual Tourist is build with Xamarin.Forms in C#.
 25. It'll prompt a menu to put your password in.
 26. After this you're done, go to the saved folder and use the APK.
 
+Packages
+------
+| Name  | Version|
+| ------------- | ------------- |
+| Microsoft.AspNetCore.Authorization | 6.0.1  |
+| Microsoft.AspNetCore.Http | 2.2.2  |
+| Microsoft.AspNetCore.Mvc.Core | 2.2.5  |
+| NETStandard.Library | 2.0.3  |
+| Xam.Plugin.Media	 | 13.0.1  |
+| Xam.Plugin.Media	 | 5.0.1  |
+| Xam.Plugin.Settings | 3.1.1  |
+| Xamarin.CommunityToolKit | 1.3.1  |
+| Xamarin.Essentials | 1.7.0  |
+| Xamarin.Forms	 | 5.0.0.2291  |
+| Xamarin.Forms.Maps | 5.0.0.2291 |
+| ZXing.Net.Mobile | 2.4.1  |
+| ZXing.Net.Mobile.Forms | 2.4.1  |
 
 Virtual Tourist
 ------
